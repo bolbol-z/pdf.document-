@@ -1,0 +1,101 @@
+﻿outil_id,libelle
+1,Aides manutention
+2,Ambulance
+3,Appli e-CMR
+4,BI
+5,BI/ERP
+6,BI/Excel
+7,Bases douanières
+8,Bateau/Simu
+9,Bourse de fret
+10,Brancard
+11,CRM
+12,CRM/Excel
+13,Cartes
+14,Cartons
+15,Casque voice
+16,Chariot
+17,Chariot m
+18,Chaussures
+19,Check-lists
+20,Chronotachygraphe
+21,Diable
+22,Docs achats
+23,Docs sécurité
+24,EPI
+25,ERP
+26,ERP/GMAO
+27,ERP/WMS
+28,Email/téléphone
+29,Excel
+30,Excel/BI
+31,Excel/Python/R
+32,Excel/VBA
+33,Excel/WMS
+34,Filmeuse
+35,GMAO
+36,GPS pro
+37,KPI
+38,Kit médical
+39,Logiciel tournée
+40,MS Project/Excel
+41,Matériel emballage
+42,Matériel médical
+43,Outil flotte
+44,Outil flotte/Excel
+45,Outil simulation/Excel
+46,Outil tournée
+47,Outillage
+48,Outils
+49,Outils DAO/Excel
+50,Outils DUERP
+51,Outils Lean
+52,Outils QSE
+53,Outils RH
+54,Outils bureautiques
+55,Outils de maintenance
+56,Outils déclaratifs
+57,Outils management
+58,Outils mapping
+59,Outils planning
+60,Outils portuaires
+61,Outils terrain
+62,PDA
+63,Plan
+64,Radio/messagerie
+65,Radio/téléphone
+66,Sangles
+67,Scanner
+68,TMS
+69,TMS/SAEIV
+70,TPE
+71,Tableaux
+72,Talkie-walkie
+73,Transpalette
+74,Télématique
+75,Téléphone
+76,VUL
+77,Valise diag
+78,Véhicule
+79,Véhicule blindé
+80,WMS
+81,WMS/Excel
+82,WMS/tri
+83,appli encaissement
+84,barres
+85,cales
+86,carto
+87,chaise
+88,check-list
+89,couvertures
+90,diable
+91,messagerie
+92,moteur
+93,ordinateur de bord
+94,planning
+95,sangles
+96,scanner
+97,tapis
+98,transpalette
+99,téléphone
+100,Équipements sûreté

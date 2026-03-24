@@ -1,0 +1,25 @@
+﻿metier_id,nom_metier,domaine_id
+1,Conducteur Routier (PL/SPL),1
+2,Conducteur Livreur (VUL),1
+3,Ambulancier,1
+4,Convoyeur de fonds / Dabiste,1
+5,Batelier - Marinier,1
+6,Agent de Quai / Manutentionnaire,2
+7,Cariste,2
+8,Préparateur de commandes,2
+9,Déménageur,2
+10,Mécanicien Poids Lourds,3
+11,Responsable de Parc,3
+12,Responsable d'Exploitation,4
+13,Affréteur,4
+14,Demand Planner (Prévisionniste),4
+15,Gestionnaire de Stocks,4
+16,Responsable Douane,5
+17,Consultant Logistique / Ingénieur Méthodes,5
+18,Responsable QSE (Qualité Sécurité),5
+19,Commercial Transport,6
+20,Agent Maritime (Consignataire),6
+21,Supply Chain Manager,7
+22,Responsable d'Entrepôt,7
+23,Responsable d'Agence Transport,7
+24,Logisticien Humanitaire,7

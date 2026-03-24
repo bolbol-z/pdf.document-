@@ -1,0 +1,80 @@
+﻿modalite_id,libelle
+1,Mise en situation (simulateur/terrain) + grille observation
+2,QCM + étude de cas panne + oral
+3,Mise en situation atelier + audit
+4,Étude de cas + exercice e-CMR
+5,Étude de cas + QCM réglementaire
+6,Étude de cas + simulation carto
+7,Jeu de rôle + observation
+8,Entretien structuré + étude de cas
+9,Auto-évaluation guidée + consignes
+10,Mise en situation + observation
+11,Exercice outil + cas incident
+12,Mise en situation + QCM procédure
+13,Atelier + audit
+14,Étude de cas + optimisation sur carte
+15,Jeu de rôle + grille
+16,Observation + module prévention
+17,Simulation haute fidélité + QCM
+18,Simulation conduite + observation
+19,Jeu de rôle + entretien
+20,Mise en situation
+21,Simulation + étude de cas
+22,QCM + mise en situation encadrée
+23,Étude de cas + TP
+24,Étude de cas
+25,Entretien + mises en situation
+26,Observation + entretien
+27,Simulation/étude de cas
+28,Entretien + observation
+29,Auto-évaluation + consignes
+30,Mise en situation + audit
+31,Exercice tri + QCM
+32,Simulation flux
+33,Audit sécurité
+34,Observation + jeu de rôle
+35,Observation
+36,Exercice WMS + cas
+37,Étude de cas + optimisation
+38,Audit + QCM
+39,Auto-évaluation + observation
+40,Simulation + chrono
+41,Audit + cas
+42,Entretien + cas
+43,Atelier
+44,Jeu de rôle
+45,TP atelier + étude de cas
+46,TP
+47,Cas + exercice
+48,Étude de cas + projet
+49,Étude de cas + négociation
+50,Projet Excel/BI
+51,Étude de cas + QCM
+52,TP outil + cas
+53,Étude de cas chiffrée
+54,Simulation crise
+55,Jeu de rôle + cas
+56,Entretien + simulation
+57,Entretien
+58,Étude de cas + simulation
+59,QCM + cas
+60,Projet
+61,Auto-évaluation
+62,Projet data + soutenance
+63,TP Excel
+64,TP outil / cas
+65,Jeu de rôle S&OP
+66,Oral + dossier
+67,TP WMS
+68,Projet implantation
+69,Cas chiffré
+70,TP procédure + cas
+71,Projet simulation
+72,Projet + soutenance
+73,TP CRM
+74,Oral + écrit
+75,Simulation
+76,Projet data
+77,Jeu de rôle comité
+78,Soutenance + entretien
+79,Entretien + mise en situation

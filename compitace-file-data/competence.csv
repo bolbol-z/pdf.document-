@@ -1,0 +1,159 @@
+﻿competence_id,libelle,metier_id,type_competence_id,indicateurs_observables,modalite_evaluation_id,preuves_attendues,situations_professionnelles_type,formation_activite_id
+1,Appliquer les principes de conduite rationnelle pour réduire consommation et risques,1,1,"Anticipation, vitesse adaptée, freinage limité, baisse conso mesurable",1,Grille observation signée + relevés conso/télématique,Trajet avec contraintes délai + conso,1
+2,Réaliser des contrôles de base et identifier des anomalies mécaniques simples,1,1,"Check pneus/niveaux/fuites, signalement cohérent, arrêt si danger",2,Check-list contrôle + fiche anomalie,Prise de poste et contrôle départ,2
+3,Sécuriser le chargement par un arrimage adapté au type de marchandise,1,1,"Sangles/points d’ancrage adaptés, calage, contrôle tension",3,Check-list arrimage + photos,Chargement palettes hétérogènes,3
+4,Compléter correctement les documents de transport (CMR/e-CMR) et traçabilité,1,2,"Champs complets, cohérence dates/poids/ADR, traçabilité",4,CMR/e-CMR complétée + correction,Enlèvement/livraison multi-clients,4
+5,Gérer les temps de conduite et repos en conformité RSE,1,2,"Planning sans infraction, justification aléas, usage tachy correct",5,Planning + score QCM + relevé tachy simulé,Tournée longue distance,5
+6,"Respecter un itinéraire et adapter la conduite aux contraintes (gabarit, météo, trafic)",1,2,"Choix itinéraire justifié, évitement zones interdites, sécurité",6,Itinéraire commenté + justification,Livraison zone urbaine/chantier,6
+7,Adopter une communication professionnelle avec clients/quai/exploitation,1,3,"Infos factuelles, ton adapté, gestion conflit, traçabilité échanges",7,Compte-rendu appel + grille soft skills,Retard livraison et client mécontent,7
+8,Maintenir vigilance et maîtrise de soi en situation de stress routier,1,3,"Réactions mesurées, pauses, pas de prise de risque, lucidité",8,Auto-analyse + plan prévention,Incident route + pression délai,8
+9,Assurer la capacité à conduire sur longue durée en gérant fatigue et sédentarité,1,4,"Gestion pauses/étirements, hydratation, prévention TMS",9,Plan prévention personnel,Semaine type longue distance,9
+10,Réaliser une conduite urbaine sûre et fluide en respectant contraintes de livraison,2,1,"Zéro incident, respect zones, manœuvres maîtrisées",10,Grille observation,Tournée urbaine dense,10
+11,Utiliser un PDA/scanner pour assurer preuve de livraison et traçabilité,2,1,"Scans corrects, statuts Ã  jour, gestion anomalies",11,Logs/exports + captures écran,Livraison avec colis manquants/abîmés,11
+12,Encaisser et gérer les flux de paiement en respectant procédures,2,1,"Encaissements justes, remise conforme, pas d’écart caisse",12,Bordereau remise + contrôle,Livraison contre remboursement,12
+13,Charger le véhicule en sécurisant colis et en optimisant l’accessibilité,2,1,"Colis lourds au fond, fragiles protégés, plan de chargement cohérent",13,Photos chargement + check-list,Préparation tournée 60 stops,13
+14,"Optimiser une tournée (ordre de livraison, fenêtres horaires, priorités)",2,2,"Ordre logique, respect créneaux, adaptation aléas",14,Plan tournée + KPI (km/temps/retards),Tournée avec retours et urgences,14
+15,"Gérer la relation de service client (accueil, explication, réclamation)",2,3,"Posture pro, écoute, solution/escale, escalade si besoin",15,Grille soft skills + compte-rendu,Client refuse colis,15
+16,"Soutenir l’effort physique répété (montées/descentes, port de colis) en sécurité",2,4,"Gestes sûrs, usage aides, pas de mise en danger",16,Check-list gestes/risques,Tournée immeubles sans ascenseur,16
+17,Réaliser les gestes et procédures de premiers secours selon AFGSU,3,1,"Gestes corrects, priorisation, hygiène, transmission",17,Fiche simulation + score QCM,Prise en charge détresse,17
+18,Conduire de manière souple et sécurisée en situation d’urgence,3,1,"Trajectoires sûres, usage avertisseurs conforme, confort patient",18,Grille observation,Transport urgent,18
+19,Préparer et vérifier le matériel médical avant mission,3,2,"Check complet, matériel fonctionnel, stocks à jour",13,Check-list + inventaire,Départ intervention,19
+20,Transmettre des informations pertinentes au SAMU (C15) et à l’équipe,3,2,"Transmission structurée, éléments vitaux, traçabilité",15,Compte-rendu structuré,Appel C15,20
+21,"Adopter empathie, discrétion et sang-froid avec patients et familles",3,3,"Posture calme, respect confidentialité, gestion émotion",19,Grille soft skills,Annonce situation grave,7
+22,Assurer la manutention de patients (brancardage) en sécurité,3,4,"Gestes sûrs, coordination binôme, usage matériel",20,Grille observation,Montée escaliers,21
+23,Appliquer les techniques de conduite sécurisée en véhicule blindé,4,1,"Trajets sécurisés, vigilance, procédures respectées",21,Grille procédure,Tournée approvisionnement,22
+24,Mettre en œuvre les règles de sécurité et d’usage des équipements (dont armement si applicable),4,1,"Gestes conformes, respect consignes, aucun écart",22,Attestation + score QCM,Intervention DAB,23
+25,Réaliser une maintenance de premier niveau sur DAB (diagnostic simple),4,1,"Diagnostic basique, actions autorisées, escalade claire",23,Fiche intervention,DAB en défaut,24
+26,Respecter strictement les procédures et gérer l’approvisionnement sans rupture,4,2,"Zéro écart procédure, traçabilité, planification",24,Feuille de tournée + traçabilité,Tournée multi-sites,25
+27,"Faire preuve d’intégrité, discrétion et vigilance en permanence",4,3,"Pas de divulgation, attitude conforme, alertes pertinentes",25,Grille éthique,Pression externe,26
+28,"Soutenir l et le stress (port, posture, charge mentale)",4,4,"Stabilité émotionnelle, gestes sûrs, endurance",26,Plan prévention,Tournée longue + incidents,8
+29,Piloter un bateau fluvial en conditions standard en intégrant règles de navigation,5,1,"Tenue de route, manÅuvres, respect signaux",27,Journal de navigation simulé,Passage écluse,27
+30,Diagnostiquer des pannes simples et réaliser des actions de mécanique navale de base,5,1,"Détection anomalies, actions autorisées, sécurité",23,Fiche maintenance,Panne pompe,27
+31,"Planifier un trajet fluvial (temps, écluses, contraintes) et la vie à bord",5,2,"Plan réaliste, marges, organisation quart",24,Plan de voyage,Trajet multi-écluses,25
+32,Travailler en autonomie avec calme et gestion d restreint,5,3,"Décisions posées, organisation, communication",28,Journal de bord,Mission longue,28
+33,Maintenir aptitude sensorielle et endurance en environnement confiné,5,4,"Vigilance, gestion fatigue, respect repos",29,Plan prévention,Vie à bord prolongée,29
+34,"Réaliser filmage, palettisation et manutention avec qualité et sécurité",6,1,"Palette stable, filmage uniforme, absence casse",30,Photos + check-list qualité,Préparation expédition,27
+35,Utiliser un transpalette manuel/électrique en respectant sécurité et flux,6,1,"Conduite sûre, respect zones, pas de heurt",20,Grille observation,Chargement quai,27
+36,"Lire et exploiter les étiquettes et documents de tri (codes, destinations)",6,1,"Zéro erreur de tri, cohérence scan/étiquette",31,Résultats tri + score,Cross-docking,27
+37,Trier les flux en cross-docking en respectant priorités et délais,6,2,"Temps de passage réduit, respect priorités, pas d’erreur quai",32,KPI temps + erreurs,Rush quai,30
+38,"Appliquer les règles de sécurité (EPI, circulation, posture) et maintenir un quai rangé",6,2,"Port EPI, zones dégagées, rangement conforme",33,Check-list audit,Fin de poste,31
+39,Collaborer en équipe et communiquer efficacement en environnement cadencé,6,3,"Aide spontanée, consignes claires, pas de conflit",34,Grille soft skills,Pic d’activité,32
+40,"Soutenir effort physique (debout, port de charges, gestes répétitifs) en limitant risques",6,4,"Gestes sûrs, pauses, usage aides",35,Grille gestes,Poste quai,27
+41,Conduire un chariot (CACES 1/3/5) selon consignes et environnement,7,1,"Contrôles pré-op, manœuvres sûres, respect plan circulation",10,Grille observation,Réception/stockage,27
+42,Réaliser un gerbage grande hauteur en sécurité et avec précision,7,1,"Palette stable, hauteur maîtrisée, zéro choc rack",20,Grille observation,Stockage,27
+43,"Utiliser un WMS embarqué (scan, missions, anomalies) pour assurer traçabilité",7,1,"Missions validées, anomalies traitées, stocks fiables",36,Exports WMS + captures,Réassort,33
+44,"Optimiser le stockage (adressage, densité, rotation) selon règles FIFO/ABC",7,2,"Choix emplacement justifié, réduction déplacements, respect rotation",37,Plan d + KPI,Réorganisation zone,34
+45,"Effectuer une maintenance de premier niveau (batterie, état fourches, signalement)",7,2,"Entretien réalisé, anomalies signalées, arrêt si danger",38,Fiche maintenance,Début/fin poste,27
+46,"Faire preuve de prudence, concentration et précision dans un environnement à risque",7,3,"Pas de prise de risque, attention constante, gestes maîtrisés",35,Grille soft skills,Pic d’activité,28
+47,"Maintenir aptitude physique (vision relief, résistance vibrations, torsion) et prévenir TMS",7,4,"Postures adaptées, pauses, réglages poste",39,Plan prévention,Poste chariot,27
+48,Utiliser la commande vocale (voice picking) et appliquer les instructions,8,1,"Taux d faible, confirmations correctes, rythme stable",20,KPI erreurs + temps,Prépa multi-lignes,27
+49,"Emballer et protéger les produits selon contraintes (fragile, température, volume)",8,1,"Emballage adapté, pas de casse, conformité",13,Photos + contrôle,Prépa e-commerce,27
+50,Constituer des palettes stables et conformes aux règles de chargement,8,1,"Stabilité, répartition masses, filmage",20,Check-list,Expédition palettes,27
+51,Respecter les cadences et organiser son circuit de chasse,8,2,"Parcours optimisé, temps conforme, pas d’oubli",40,KPI productivité,Prépa vague,30
+52,Assurer une qualité “zéro erreur” par auto-contrôle et traitement anomalies,8,2,"Taux erreur faible, anomalies escaladées, traçabilité",41,Rapport anomalies,Rupture stock,27
+53,"Adopter dynamisme, rigueur et honnêteté (intégrité stock)",8,3,"Respect règles, pas d’écarts, posture pro",42,Grille soft skills,Tentations/écarts,35
+54,Soutenir marche intensive et port de charges en sécurité,8,4,"Gestes sûrs, usage aides, gestion fatigue",35,Grille gestes,Prépa journée complète,27
+55,Emballer le mobilier et protéger les objets selon fragilité et valeur,9,1,"Protection adaptée, zéro casse, étiquetage",43,Photos + check-list,Déménagement appartement,27
+56,Monter/démonter des meubles en respectant méthodes et outillage,9,1,"Assemblage correct, pas de perte pièces, sécurité",20,Check-list,Démontage lit/armoire,27
+57,"Charger un camion en optimisant volumes, stabilité et accessibilité",9,1,"Répartition masses, calage, optimisation espace",13,Photos chargement,Camion complet,27
+58,Coordonner une équipe et gérer le temps chez le client,9,2,"Brief clair, séquencement t respect délai",7,Plan d,Déménagement avec contraintes,32
+59,"Adopter politesse, discrétion et soin des biens chez le client",9,3,"Respect domicile, communication, attention",44,Grille soft skills,Client exigeant,15
+60,Assumer efforts lourds et gestes répétitifs en sécurité (prévention blessures),9,4,"Gestes sûrs, usage sangles, pas de surcharge",35,Grille gestes,Port piano/charges,27
+61,Réaliser un diagnostic électronique à l’aide d’une valise et interpréter codes défaut,10,1,"Diagnostic cohérent, hypothèses, tests confirmatoires",45,Rapport diagnostic,Panne freinage ABS,27
+62,Intervenir sur systèmes hydraulique/pneumatique en respectant sécurité,10,1,"Intervention correcte, purge, contrôle étanchéité",46,Fiche intervention,Panne air,27
+63,Réaliser opérations de maintenance sur moteur/freins selon plan,10,1,"Procédure respectée, couple serrage, essai",46,Ordre de réparation,Révision,27
+64,Planifier les entretiens et organiser les interventions en atelier,10,2,"Planning réaliste, priorités, disponibilité",24,Planning atelier,Flotte 20 PL,34
+65,"Gérer les pièces détachées (commande, stock, traçabilité)",10,2,"Disponibilité pièces, stock fiable, traçabilité",47,Bon de commande + inventaire,Rupture pièce critique,25
+66,"Faire preuve d’habileté, autonomie et raisonnement logique en dépannage",10,3,"Hypothèses structurées, autonomie, sécurité",42,Arbre de diagnostic,Panne intermittente,28
+67,"Travailler en conditions physiques contraignantes en sécurité (bruit, postures)",10,4,"EPI, postures, pauses, respect consignes",35,Audit EPI,Atelier,29
+68,"Gérer une flotte de véhicules (affectation, disponibilité, suivi)",11,1,"Taux dispo, suivi kilométrage, reporting",48,Tableau de bord flotte,Flotte multi-sites,34
+69,Assurer le suivi des contrôles techniques et conformité réglementaire,11,1,"Échéances respectées, aucun véhicule non conforme",41,Planning échéances,Contrôle technique à venir,25
+70,Négocier des contrats de maintenance et piloter prestataires,11,1,"Comparatif offres, clauses, suivi qualité",49,Analyse offres + CR,Renouvellement contrat,15
+71,Suivre les coûts d’entretien (TCO) et proposer optimisations,11,2,"Calcul TCO, analyse dérives, actions",50,Dashboard coûts,Budget annuel,34
+72,Planifier disponibilité véhicules en lien exploitation,11,2,"Plan réaliste, arbitrages, communication",24,Planning,Pic saisonnier,25
+73,Faire preuve de rigueur administrative et sens de la négociation,11,3,"Dossiers complets, négociation argumentée",42,Dossier complet,Litige facture,32
+74,Assurer présence terrain et déplacements sur parc en sécurité,11,4,"Respect circulation parc, EPI",35,Audit sécurité,Visite parc,31
+75,Appliquer la réglementation transport (RSE) dans l’organisation des tournées,12,1,"Plans conformes, contrôles infractions, actions correctives",51,Planning + score,Gestion tournée,25
+76,"Exploiter un TMS/SAEIV pour planifier, suivre et tracer les opérations",12,1,"Plans optimisés, suivi temps réel, traçabilité",52,Exports TMS + captures,Aléas livraison,33
+77,Calculer la rentabilité d’une tournée/dossier et proposer arbitrages,12,1,"Marge calculée, hypothèses, recommandations",53,Tableau marge,Dossier Ã  faible marge,25
+78,"Gérer les aléas en temps réel (panne, retard, client) et replanifier",12,2,"Décisions rapides, impacts évalués, communication",54,CR décisions,Accident + urgence,30
+79,"Manager les conducteurs (brief, suivi, règles, performance)",12,2,"Brief clair, feedback, suivi KPI",55,Plan d,Équipe 30 conducteurs,15
+80,Faire preuve de leadership et résistance au stress dans la décision,12,3,"Décisions assumées, calme, écoute",56,Grille soft skills,Crise service,28
+81,Assurer disponibilité/astreintes en gérant charge mentale et récupération,12,4,"Organisation repos, prévention épuisement",57,Plan prévention,Astreinte week-end,28
+82,Utiliser une bourse de fret et qualifier une offre/demande,13,1,"Offres pertinentes, critères complets, réactivité",58,Dossier affrètement,Lot spot,27
+83,Appliquer Incoterms et bases de droit commercial dans la vente/achat transport,13,1,"Incoterm correct, responsabilités clarifiées",59,Correction cas,Export UE,25
+84,Construire et animer un réseau de sous-traitants,13,2,"Base qualifiée, évaluations, continuité service",60,Base sous-traitants,Saisonnalité,34
+85,Suivre la marge par dossier et piloter la profitabilité,13,2,"Marge calculée, alertes, actions",53,Tableau marge,Dossier déficitaire,25
+86,"Développer ténacité commerciale, persuasion et réactivité",13,3,"Argumentaire, relances, gestion objections",44,Grille soft skills,Négociation prix,15
+87,Soutenir un travail sédentaire intensif (téléphone/écran) et gérer fatigue,13,4,"Hygiène posture, gestion attention",61,Plan prévention,Journée appels,29
+88,Modéliser statistiquement la demande et choisir un modèle adapté,14,1,"Choix modèle justifié, backtesting, MAPE suivi",62,Rapport + fichiers,Série saisonnière,36
+89,"Maîtriser Excel avancé (TCD, fonctions, VBA si pertinent) pour automatiser analyses",14,1,"Fichiers robustes, automatisations, contrôle erreurs",63,Fichier Excel annoté,Conso données,27
+90,Utiliser un ERP (SAP/APO ou équivalent) pour données prévision/plan,14,1,"Données extraites, cohérence, paramétrage basique",64,Exports ERP,Cycle mensuel,27
+91,Contribuer au processus S&OP et coordonner ventes/production/logistique,14,2,"Rituels tenus, inputs complets, décisions tracées",65,CR S&OP,Réunion mensuelle,30
+92,Formuler des recommandations chiffrées et argumentées (force de proposition),14,3,"Recommandations claires, impact coût/service",66,Note d,Rupture vs stock,37
+93,Soutenir concentration visuelle et charge cognitive sur écran,14,4,"Gestion pauses, qualité attention",61,Plan prévention,Travail data,29
+94,Appliquer les méthodes FIFO/ABC et analyser la rotation des stocks,15,1,"Classement ABC correct, respect FIFO, rotation mesurée",24,Analyse rotation,Produit périssable,25
+95,Réaliser des inventaires (tournants/généraux) et traiter écarts,15,1,"Procédure correcte, écarts analysés, actions",30,PV inventaire,Inventaire tournant,27
+96,"Paramétrer des règles WMS (seuils, emplacements, statuts) niveau utilisateur",15,1,"Paramétrage cohérent, test, documentation",67,Paramétrage + captures,Réglage réassort,27
+97,Calculer des seuils de réapprovisionnement et proposer politiques stock,15,2,"Seuils justifiés, prise en compte délai/service",53,Calculs + note,Variation demande,25
+98,Optimiser la surface et l stockage,15,2,"Gain espace, réduction déplacements",68,Plan + KPI,Réaménagement zone,34
+99,"Faire preuve de méthode, anticipation et sens de l’économie",15,3,"Priorités claires, décisions sobres, rigueur",42,Plan d,Budget serré,32
+100,"Assurer déplacements entrepôt en sécurité (circulation, coactivité)",15,4,"Respect règles, vigilance",35,Audit sécurité,Visite zones,38
+101,Appliquer le Code des douanes (CDU) et déterminer le régime applicable,16,1,"Régime correct, justification, documentation",51,Dossier douane,Import hors UE,25
+102,Réaliser un classement tarifaire (SH) et calculer droits/taxes,16,1,"Code SH justifié, calcul correct",69,Fiche classement,Produit complexe,25
+103,Utiliser les procédures DELTA/OEA et préparer dossiers de conformité,16,1,"Dossiers complets, traçabilité, conformité",70,Dossier conformité,Audit interne,27
+104,Assurer veille réglementaire et gérer contentieux/contrôles,16,2,"Veille structurée, réponses délais, preuves",24,Note de veille,Contrôle douane,39
+105,Réaliser des audits de conformité et plans d’actions,16,2,"Plan audit, constats factuels, actions suivies",60,Rapport audit,Audit OEA,34
+106,"Agir avec intégrité, rigueur administrative et diplomatie",16,3,"Dossiers impeccables, échanges apaisés",42,Grille soft skills,Litige,35
+107,"Soutenir un travail de bureau prolongé (organisation, fatigue)",16,4,"Gestion temps, pauses, ergonomie",61,Plan prévention,Semaine de clôture,29
+108,Analyser des flux et modéliser des processus logistiques,17,1,"Cartographie correcte, goulots identifiés",48,VSM/Process map,Entrepôt saturé,34
+109,Réaliser une simulation de flux et interpréter résultats,17,1,"Hypothèses claires, résultats interprétés",71,Fichier simulation + rapport,Scénarios capacité,34
+110,"Concevoir un design d’entrepôt (zones, capacités, flux)",17,1,"Implantation cohérente, sécurité, KPI",60,Plan d,Nouveau site,34
+111,"Piloter un projet (planning, risques, parties prenantes) ",17,2,"Planning tenu, risques gérés, jalons",72,Charte projet,WMS change,34
+112,Rédiger un cahier des charges et calculer un ROI,17,2,"CDC complet, ROI cohérent, hypothèses",24,CDC + ROI,Automatisation,25
+113,Conduire le changement avec pédagogie et logique,17,3,"Plan com, écoute, adaptation",44,Plan changement,Résistance terrain,28
+114,Gérer alternance sédentarité/déplacements en autonomie,17,4,"Organisation déplacements, fatigue",61,Plan prévention,Mission client,29
+115,Appliquer normes ISO pertinentes et construire un système documentaire,18,1,"Procédures cohérentes, traçabilité, audits",60,Manuel/process,Certification,34
+116,Appliquer réglementation TMD (marchandises dangereuses) et mesures de prévention,18,1,"Classement, étiquetage, procédures",51,Dossier TMD,Expédition ADR,25
+117,Évaluer risques et tenir à jour le Document Unique,18,1,"DUERP complet, plan actions",60,DUERP,Entrepôt,34
+118,"Animer la sécurité (causeries, audits internes, prévention)",18,2,"Rituels, indicateurs, actions suivies",30,Compte-rendu,Animation site,28
+119,"Adopter fermeté, pédagogie et sens de l’observation",18,3,"Recadrage factuel, écoute, observations pertinentes",44,Grille soft skills,Écart EPI,15
+120,Assurer des déplacements fréquents sur site en sécurité,18,4,"EPI, vigilance coactivité",35,Audit,Tournée terrain,38
+121,Construire une offre transport (cotation) et chiffrer un dossier,19,1,"Devis cohérent, marge, contraintes",53,Devis,Appel d,25
+122,"Utiliser un CRM pour prospecter, suivre pipeline et relances",19,1,"Pipeline à jour, taux relance, qualité données",73,Exports CRM,Prospection,27
+123,Prospecter et fidéliser un portefeuille (plan d’actions commercial),19,2,"Plan structuré, objectifs, suivi",60,Plan commercial,Trimestre,34
+124,"Répondre à un appel d’offres (lecture, exigences, soutenance)",19,2,"Conformité dossier, argumentaire, délais",72,Dossier AO,AO public/privé,34
+125,"Développer écoute, persévérance et sens du contact",19,3,"Questions pertinentes, gestion objections",44,Grille soft skills,Négociation,15
+126,Assurer mobilité (permis B) et déplacements clientèle en sécurité,19,4,"Organisation trajets, sécurité",61,Plan déplacements,Visites clients,29
+127,Appliquer réglementation maritime et gérer formalités d’escale,20,1,"Dossier escale complet, conformité",24,Dossier escale,Arrivée navire,25
+128,Communiquer en anglais technique maritime (écrit/oral),20,1,"Messages clairs, vocabulaire, compréhension",74,Email type + simulation appel,Coordination port,28
+129,Coordonner opérations portuaires avec multiples acteurs,20,2,"Planning synchronisé, incidents gérés",75,CR coordination,Escale complexe,30
+130,Gérer relations autorités portuaires avec disponibilité et réactivité,20,3,"Réponses rapides, diplomatie, fiabilité",44,Grille soft skills,Contrôle,15
+131,S’adapter à horaires décalés et charge de travail variable,20,4,"Gestion repos, organisation",61,Plan prévention,Arrivées nocturnes,29
+132,Construire une stratégie S&OP et aligner objectifs service/coût/cash,21,1,"Stratégie formalisée, arbitrages, KPI",72,Note stratégique,Entreprise multi-sites,34
+133,"Piloter la performance financière supply (budget, coûts, stocks)",21,1,"Budget, analyses écarts, actions",53,Dashboard finance,Revue mensuelle,25
+134,Maîtriser les SI (ERP/WMS) pour piloter flux et données,21,1,"Données fiables, indicateurs, gouvernance",76,Data dictionary,Qualité données,34
+135,Piloter transversalement et manager des managers (gouvernance),21,2,"Rituels, décisions, alignement",77,CR comité,Comité direction supply,40
+136,Mettre en œuvre Lean Management (amélioration continue),21,2,"Chantiers, gains, standardisation",60,A3/Kaizen,Réduction lead time,34
+137,"Développer vision stratégique, leadership et capacité à fédérer",21,3,"Vision claire, mobilisation, communication",78,Pitch vision,Transformation,28
+138,Gérer stress et déplacements liés aux enjeux,21,4,"Gestion charge, organisation",61,Plan prévention,Déplacements sites,29
+139,"Piloter la production logistique (réception, stockage, préparation, expédition)",22,1,"KPI tenue, organisation, qualité",48,Tableau de bord,Pic saison,34
+140,Appliquer sécurité et contraintes ICPE si applicable,22,1,"Conformité, plans prévention, audits",24,Plan sécurité,Site classé,25
+141,"Appliquer bases du droit du travail (temps, discipline, IRP) ",22,1,"Décisions conformes, traçabilité",59,Note RH,Conflit planning,25
+142,Dimensionner équipes et planifier les ressources,22,2,"Capacité calculée, planning, polyvalence",24,Plan effectifs,Semaine haute,25
+143,"Piloter KPI et animer routines terrain (QRQC, brief)",22,2,"Rituels, actions, amélioration KPI",20,CR routine,Brief matin,28
+144,Gérer relations IRP et communication interne,22,2,"Communication structurée, respect cadre",44,CR réunion,Réunion IRP,15
+145,"Incarner exemplarité, charisme et fermeté",22,3,"Recadrages factuels, justice, cohérence",19,Grille soft skills,Écart sécurité,28
+146,Soutenir endurance terrain et horaires étendus,22,4,"Gestion fatigue, organisation",61,Plan prévention,Semaine pic,29
+147,Piloter un centre de profit (P&L) et analyser rentabilité,23,1,"Lecture P&L, actions marge, budget",53,Analyse P&L,Agence déficitaire,25
+148,"Développer commercialement l’agence (plan d’action, offres)",23,1,"Plan commercial, pipeline, résultats",60,Plan action,Développement zone,34
+149,Piloter opérations et superviser exploitation au quotidien,23,2,"Service tenu, aléas gérés, coordination",75,CR,Crise capacité,30
+150,"Piloter RH (recrutement, intégration, discipline, compétences)",23,2,"Process RH, intégration, suivi",24,Parcours intégration,Turnover,25
+151,"Développer esprit entrepreneurial, polyvalence et sens politique",23,3,"Initiatives, arbitrages, gestion parties prenantes",42,Note décision,Conflit interne,28
+152,Assurer disponibilité importante en gérant charge et équilibre,23,4,"Organisation, prévention épuisement",61,Plan prévention,Semaine dense,29
+153,"Organiser une logistique d’urgence (appro, distribution, priorités)",24,1,"Priorisation, continuité, traçabilité",54,Plan logistique,Catastrophe,30
+154,"Gérer une flotte et des ressources dégradées (maintenance, carburant)",24,1,"Plan maintenance, suivi conso, arbitrages",24,Tableau flotte,Zone isolée,34
+155,Réaliser des achats en contexte de crise et sécuriser la chaîne,24,1,"Achats traçables, délais, contrôle",24,Dossier achat,Pénurie,25
+156,Coordonner multisite et travailler en système D (débrouillardise),24,2,"Solutions pragmatiques, coordination, reporting",75,CR situation,Multi-camps,30
+157,"Faire preuve d’adaptabilité, altruisme et solidité psychologique",24,3,"Comportement stable, coopération, gestion émotion",79,Grille soft skills,Contexte tendu,28
+158,Tenir dans des conditions de vie difficiles (terrain) en sécurité,24,4,"Hygiène, gestion fatigue, sécurité",61,Plan prévention,Camp isolé,29
