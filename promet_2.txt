@@ -1,0 +1,193 @@
+﻿Agis comme un expert en Data Science, Deep Learning, Machine Learning et conception de systèmes de scoring académiques.
+
+Je vais te fournir une description d’un système de score d’employabilité déjà existant.
+
+Ta tâche est de produire une architecture complète, détaillée et cohérente du système, en gardant la même logique architecturale générale, mais en intégrant les changements suivants dans les données d’entrée et dans la logique de construction des inputs.
+
+Je veux une réponse très structurée, technique, claire et exploitable.
+
+Objectif du système :
+Ce système sera utilisé dans une plateforme destinée aux étudiants afin d’estimer leur niveau académique et leur employabilité à partir de leurs notes.
+
+Contraintes métier importantes :
+- Les étudiants en Master doivent toujours être considérés comme ayant un niveau académique supérieur à ceux en Licence.
+- Même si un étudiant en Master ne possède pas ses relevés de Licence (par exemple s’il vient d’un autre établissement), le système doit quand même pouvoir estimer correctement son niveau.
+- Le système doit prendre en compte la différence de niveau entre Licence et Master.
+- Le système doit rester cohérent, déterministe, et exploitable même avec peu de données.
+
+Important :
+Je ne veux pas que tu changes l’esprit global de l’architecture.
+Je veux la même philosophie générale que l’architecture initiale :
+- préparation des données,
+- encodage académique,
+- gestion des parcours,
+- construction du vecteur étudiant,
+- modélisation non supervisée,
+- pipeline global,
+- entraînement,
+- validation,
+- reproductibilité.
+
+Mais voici ce qui change :
+
+========================
+1. NOUVELLE BASE D’ENTRAÎNEMENT
+========================
+
+La base de données d’entraînement n’est plus un grand fichier de relevés bruts ligne par ligne comme dans l’ancienne version.
+La nouvelle base s’appelle :
+
+not_rows_excel
+
+Elle contient 29 étudiants.
+
+Chaque ligne correspond à une observation académique structurée avec les colonnes suivantes :
+
+- etudiant
+- parcours_type :
+  - L = Licence
+  - M = Master
+  - LM = Licence et Master
+- filiere_licence :
+  - "Licence_Sciences_de_Transport"
+  - "Licence_Génie_Logistique"
+- filiere_master :
+  - "Master_Recherche_STL"
+  - "Master_Pro_Génie_Industriel_et_Logistique"
+- semestre :
+  - pour Licence : S1 à S5
+  - pour Master : S1 à S3
+- matiere
+- moyenne de matiere
+
+Je veux que tu reconstruises toute la logique de préparation des données en partant exactement de cette nouvelle structure.
+
+========================
+2. INPUT 2 CONSERVÉ
+========================
+
+Le deuxième input reste inchangé :
+
+- matrice_coverture
+
+C’est la même matrice de couverture matière → métiers / compétences que dans l’architecture initiale.
+Tu dois donc conserver son rôle central dans le système.
+
+========================
+3. MODIFICATION MAJEURE À RESPECTER
+========================
+
+Tu dois supprimer complètement de l’architecture toute la partie suivante :
+
+- le score brut défini comme la norme L2 du vecteur latent,
+- la normalisation percentile,
+- toute justification du type :
+  “Score = norme L2 du vecteur latent. Un étudiant dont les 8 coordonnées sont proches de 1 a activé toutes les dimensions de compétence — score élevé. La normalisation par rang percentile remplace le min-max…”
+
+Autrement dit :
+- ne réutilise pas cette logique,
+- ne la reformule pas,
+- ne la remplace pas par une version paraphrasée,
+- retire entièrement cette section de l’architecture.
+
+Si tu proposes une logique de score final, elle doit être reformulée autrement et conçue proprement à partir de l’architecture, sans reprendre cette partie supprimée.
+
+========================
+4. CE QUE JE VEUX DANS TA RÉPONSE
+========================
+
+Je veux une architecture complète du système, en expliquant :
+
+1. La structure des données d’entrée
+   - comment interpréter `not_rows_excel`
+   - comment regrouper les lignes par étudiant
+   - comment distinguer les parcours L, M et LM
+   - comment utiliser les semestres
+
+2. La préparation des données
+   - validation
+   - nettoyage
+   - gestion des matières absentes de la matrice
+   - harmonisation des filières
+   - organisation par niveau (Licence / Master)
+   - organisation temporelle par semestre
+
+3. La logique d’encodage académique
+   - comment transformer les moyennes des matières en vecteurs de compétences / métiers
+   - comment utiliser la matrice de couverture
+   - comment agréger par semestre
+   - comment agréger par niveau
+   - comment agréger pour un étudiant complet
+
+4. La gestion des trois parcours
+   - étudiant Licence seule
+   - étudiant Master seul
+   - étudiant Licence + Master
+   - comment garder une représentation comparable entre eux
+   - comment traiter le cas “Master seul” sans inventer les données de Licence
+
+5. La construction du vecteur final étudiant
+   - ce qui entre dans le vecteur
+   - quelles métadonnées ajouter
+   - comment intégrer le parcours_type
+   - comment intégrer la couverture académique
+   - comment intégrer la progression par semestre
+
+6. La modélisation non supervisée
+   - quel type de modèle est le plus pertinent
+   - pourquoi
+   - architecture détaillée proposée
+   - rôle de l’espace latent
+   - logique de comparaison entre étudiants
+
+7. L’entraînement
+   - procédure
+   - fonction de perte
+   - régularisation
+   - stabilité
+   - comment entraîner avec seulement 29 étudiants
+   - comment éviter le surapprentissage
+
+8. La validation sans labels
+   - quelles métriques indirectes utiliser
+   - comment vérifier la cohérence entre Licence et Master
+   - comment vérifier la stabilité du système
+   - comment auditer la comparabilité entre parcours
+
+9. Le pipeline global
+   - ingestion
+   - transformation
+   - encodage
+   - entraînement
+   - inférence
+   - sortie
+
+10. La reproductibilité
+   - seed fixe
+   - versioning
+   - déterminisme
+   - hash de contrôle
+   - stabilité des résultats
+
+========================
+5. FORMAT ATTENDU
+========================
+
+Je veux une réponse très détaillée, très technique, bien structurée, avec :
+- des sections claires,
+- des justifications,
+- des exemples de structures de données,
+- du pseudo-code ou du code Python quand c’est utile,
+- une architecture cohérente de bout en bout.
+
+Le ton doit être celui d’un architecte ML / Data Science senior.
+
+Important :
+- Tu dois partir de la nouvelle base `not_rows_excel` comme dataset principal d’entraînement.
+- Tu dois conserver `matrice_coverture` comme second input central.
+- Tu dois garder la même logique globale que l’architecture initiale.
+- Tu dois retirer complètement la partie basée sur la norme L2 du latent et le percentile.
+- Tu dois proposer une architecture réaliste pour un petit dataset de 29 étudiants.
+- Tu dois expliquer comment gérer les semestres Licence (S1 à S5) et Master (S1 à S3) dans la représentation des données.
+
+Produis maintenant l’architecture complète.

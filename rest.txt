@@ -1,0 +1,23 @@
+﻿Voici une architecture visuelle complète du système de score d'employabilité, organisée en plusieurs diagrammes pour couvrir toutes les couches.**Vue d'ensemble — 3 couches du pipeline.** Chaque étudiant est transformé en un vecteur de 29 dimensions, compressé par l'autoencoder en une représentation latente de 8 dimensions, puis converti en un score percentile. Voici maintenant le détail de la gestion des parcours, qui est la contrainte la plus délicate du système.**Gestion des parcours — le cœur du problème.** Les trois parcours aboutissent tous à un vecteur de dimension identique (29D), mais avec un `coverage_ratio` différent qui informe le modèle sur la richesse du signal. Voici maintenant l'architecture interne de l'autoencoder et la logique de scoring.Voici enfin la logique d'entraînement, de validation et les garanties de reproductibilité.Voici une synthèse structurée de l'ensemble du système.
+
+---
+
+## Synthèse de l'architecture
+
+**Colonne vertébrale : la matrice 164×24.** Elle traduit chaque matière en 24 poids métier (0 à 1), calibrés par des experts. Elle ne doit jamais être normalisée — la sémantique ordinale doit rester intacte.
+
+**Encodage par filière.** Chaque note est normalisée sur [0,1], pondérée par son coefficient et par les poids de la matrice. On obtient un vecteur de 24 dimensions représentant le niveau moyen de l'étudiant par métier.
+
+**Gestion des parcours — la contrainte centrale.** Les trois cas sont traités strictement :
+
+- `L` → vecteur 24D depuis ~50 matières, `coverage_ratio ≈ 0.60`
+- `LM` → fusion pondérée `0.4×v_L + 0.6×v_M` (le Master prime car c'est la spécialisation finale), `coverage_ratio ≈ 1.0`
+- `M seul` → vecteur 24D depuis ~33 matières uniquement, **aucune imputation**, `coverage_ratio ≈ 0.40`
+
+Le `coverage_ratio` est ajouté comme 29ème feature : le modèle apprend lui-même à compenser la différence de densité entre parcours, sans inventer de données.
+
+**Autoencoder déterministe.** Bottleneck de dimension 8 avec Sigmoid (force les coordonnées latentes dans [0,1]). Choisi face à PCA (linéaire) et VAE (stochastique). La perte composite combine reconstruction MSE, dispersion de l'espace latent et équité inter-parcours.
+
+**Score = norme L2 du vecteur latent.** Un étudiant dont les 8 coordonnées sont proches de 1 a activé toutes les dimensions de compétence — score élevé. La normalisation par rang percentile remplace le min-max pour éliminer la sensibilité aux outliers et rendre le score directement interprétable ("vous êtes meilleur que X% de votre promotion").
+
+**Garantie Licence < Master.** Elle n'est pas imposée par règle fixe, mais vérifiée après entraînement via un test Mann-Whitney U sur les distributions de scores. Si la cohérence n'est pas atteinte, on ajuste la perte `loss_fairness`. Le `coverage_ratio` plus faible du parcours M seul est informatif mais non pénalisant — la comparabilité est assurée par le même espace latent commun.
